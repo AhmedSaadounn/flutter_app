@@ -51,9 +51,10 @@ class _LoginScreenState extends State<LoginScreen> {
                         child: Image.asset(
                           'asset/book.png',
                           height: 100,
+                          width: 100,
                         ),
                       ),
-                      SizedBox(height: 10),
+                      SizedBox(height: 5),
                       Text(
                         'Electronic Library',
                         style: TextStyle(
@@ -61,7 +62,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             fontSize: 35,
                             fontWeight: FontWeight.bold),
                       ),
-                      SizedBox(height: 10),
+                      SizedBox(height: 5),
                       Text(
                         'Welcome to the digital library ',
                         textAlign: TextAlign.center,
