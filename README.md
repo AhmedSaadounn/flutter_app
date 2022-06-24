@@ -7,4 +7,4 @@ A new Flutter application.
 
 
 # Cloud Firestore:
-<img width="410" alt="image" src="(https://user-images.githubusercontent.com/75604506/175465647-e5dd82c0-43d7-49a6-887b-32869f519758.png">
+<img width="410" alt="image" src="https://user-images.githubusercontent.com/75604506/175465647-e5dd82c0-43d7-49a6-887b-32869f519758.png">
