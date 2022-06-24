@@ -75,7 +75,7 @@ class _EditItemFormState extends State<EditItemForm> {
 
                 /// 2- ui of  full textfield Title ///
                 Text(
-                  'Title',
+                  'عنوان للكتاب',
                   style: TextStyle(
                     color: CustomColors.firebaseWhite,
                     fontSize: 22.0,
@@ -124,7 +124,7 @@ class _EditItemFormState extends State<EditItemForm> {
 
                 /// 4- ui of  full textfield Description ///
                 Text(
-                  'Description',
+                  'عنوان الكتاب',
                   style: TextStyle(
                     color: CustomColors.firebaseWhite,
                     fontSize: 22.0,
@@ -143,7 +143,7 @@ class _EditItemFormState extends State<EditItemForm> {
                     value: value,
                   ),
                   label: 'Description',
-                  hint: 'Enter your note description',
+                  hint: 'أدخل وصف ملاحظتك',
                 ),
               ],
             ),
@@ -200,7 +200,7 @@ class _EditItemFormState extends State<EditItemForm> {
               child: Padding(
                 padding: EdgeInsets.only(top: 16.0, bottom: 16.0),
                 child: Text(
-                  'UPDATE Post',
+                  'تحديث آخر',
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,

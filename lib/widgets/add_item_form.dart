@@ -40,7 +40,7 @@ class _AddItemFormState extends State<AddItemForm> {
             padding: const EdgeInsets.only(
               left: 8.0,
               right: 8.0,
-              bottom: 24.0,
+              bottom: 13.0,
             ),
             child: Column(
               mainAxisSize: MainAxisSize.min,
@@ -50,7 +50,7 @@ class _AddItemFormState extends State<AddItemForm> {
 
                 /// 2- ui of  empty textfield Title ///
                 Text(
-                  'Title',
+                  'عنوان الكتاب',
                   style: TextStyle(
                     color: CustomColors.firebaseWhite,
                     fontSize: 22.0,
@@ -68,13 +68,13 @@ class _AddItemFormState extends State<AddItemForm> {
                     value: value,
                   ),
                   label: 'Title',
-                  hint: 'Enter your  title',
+                  hint: 'أدخل عنوان للكتاب',
                 ),
                 SizedBox(height: 16.0),
 
                 /// 3- ui of  empty textfield Image ///
                 Text(
-                  'Image',
+                  'صورة للكتاب',
                   style: TextStyle(
                     color: CustomColors.firebaseWhite,
                     fontSize: 22.0,
@@ -92,13 +92,13 @@ class _AddItemFormState extends State<AddItemForm> {
                     value: value,
                   ),
                   label: 'image',
-                  hint: 'Enter your image url',
+                  hint: 'أدخل عنوان URL للصورة',
                 ),
                 SizedBox(height: 16.0),
 
                 /// 4- ui of  empty textfield Description ///
                 Text(
-                  'Description',
+                  'ملاحظة للكتاب',
                   style: TextStyle(
                     color: CustomColors.firebaseWhite,
                     fontSize: 22.0,
@@ -106,9 +106,9 @@ class _AddItemFormState extends State<AddItemForm> {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                SizedBox(height: 8.0),
+                SizedBox(height: 4.0),
                 CustomFormField(
-                  maxLines: 5,
+                  maxLines: 4,
                   isLabelEnabled: false,
                   controller: _descriptionController,
                   keyboardType: TextInputType.text,
@@ -116,8 +116,8 @@ class _AddItemFormState extends State<AddItemForm> {
                   validator: (value) => Validator.validateField(
                     value: value,
                   ),
-                  label: 'Description',
-                  hint: 'Enter your note description',
+                  label: 'ملاحظة للكتاب',
+                  hint: 'ادخل ملاحظة للكتاب',
                 ),
               ],
             ),
@@ -172,7 +172,7 @@ class _AddItemFormState extends State<AddItemForm> {
               child: Padding(
                 padding: EdgeInsets.only(top: 16.0, bottom: 16.0),
                 child: Text(
-                  'ADD Post',
+                  'اضافة للمكتبة',
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,

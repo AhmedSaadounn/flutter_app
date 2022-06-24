@@ -44,8 +44,8 @@ class _LoginFormState extends State<LoginForm> {
                   validator: (value) => Validator.validateUserID(
                     uid: value,
                   ),
-                  label: 'ID docs',
-                  hint: 'Inter name of category',
+                  label: 'ادخل تصنيف الكتاب',
+                  hint: 'الرياضة , التاريخ ,السياسة',
                 ),
               ],
             ),
@@ -83,7 +83,7 @@ class _LoginFormState extends State<LoginForm> {
                 child: Padding(
                   padding: EdgeInsets.only(top: 16.0, bottom: 16.0),
                   child: Text(
-                    'Login',
+                    'بحث',
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,

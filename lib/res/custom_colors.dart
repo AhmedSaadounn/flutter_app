@@ -9,6 +9,6 @@ class CustomColors {
   static final Color firebaseWhite = Color(0xFFECEFF1);
   static final Color googleBackground = Color(0xFF4285F4);
   static final Color firebaseTealAccent = Colors.tealAccent;
-  static final Color firebaseRedAccent = Colors.white;
-  static final Color firebaseYellowAccent = Colors.white;
+  static final Color firebaseRedAccent = Colors.red;
+  static final Color firebaseYellowAccent = Colors.yellow;
 }

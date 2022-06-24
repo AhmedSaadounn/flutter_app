@@ -56,15 +56,15 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                       SizedBox(height: 5),
                       Text(
-                        'Electronic Library',
+                        ' المكتبة الرقمية ',
                         style: TextStyle(
-                            color: CustomColors.firebaseRedAccent,
+                            color: CustomColors.firebaseWhite,
                             fontSize: 35,
                             fontWeight: FontWeight.bold),
                       ),
                       SizedBox(height: 5),
                       Text(
-                        'Welcome to the digital library ',
+                        ' مرحبا بكم في المكتبة الرقمية ',
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           color: CustomColors.firebaseOrange,

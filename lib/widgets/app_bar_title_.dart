@@ -18,14 +18,14 @@ class AppBarTitle extends StatelessWidget {
         ),
         SizedBox(width: 8),
         Text(
-          'Electronic',
+          ' الرقمية ',
           style: TextStyle(
-            color: CustomColors.firebaseAmber,
+            color: CustomColors.firebaseWhite,
             fontSize: 18,
           ),
         ),
         Text(
-          ' Library',
+          ' المكتبة',
           style: TextStyle(
             color: CustomColors.firebaseOrange,
             fontSize: 18,

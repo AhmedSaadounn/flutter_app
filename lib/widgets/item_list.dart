@@ -87,8 +87,8 @@ class ItemList extends StatelessWidget {
                     trimLines: 3,
                     colorClickableText: CustomColors.firebaseRedAccent,
                     trimMode: TrimMode.Line,
-                    trimCollapsedText: 'more',
-                    trimExpandedText: 'less',
+                    trimCollapsedText: 'المزيد',
+                    trimExpandedText: 'اخفاء',
                     moreStyle: TextStyle(
                         fontSize: 14,
                         fontWeight: FontWeight.bold,
